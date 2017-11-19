@@ -60,15 +60,25 @@ button {
 
 }
 
-/*Search Bar*/
-#buttonMaker {
-
-}
-
-
-
+/*GIF section*/
 #GIFBoard {width: 100%;
 	background-color: #E3CE0B;
+}
+
+.GIF {display: inline-block;
+	margin: 10px 20px;
+	border-color: #75532D;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #75532D;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+.padding {
+padding-bottom: 5PX;
 }
 
 footer {font-family: 'Roboto Condensed', sans-serif;

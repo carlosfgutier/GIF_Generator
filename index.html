@@ -3,7 +3,7 @@
 <head>
 	<title>GIF Generator</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/test.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
 </head>
@@ -20,21 +20,21 @@
 			
 			<section id="searchSection">
 				<p id="addAnimal">Add an animal</p>
-				<button>submit</button>
+				<button id="submit">submit</button>
 				<br>
 				<input id="searchBar" type="text" name="animalName">
 			</section>
 			
-			<section id=" buttonDisplay">
-				<button>cow</button>
-				<button>cat</button>
-				<button>dog</button>
-				<button>lion</button>
-				<button>whale</button>
-				<button>shark</button>
-				<button>tucan</button>
-				<button>weasel</button>
-				<button>skunk</button>
+			<section id="buttonDisplay">
+				<button class="showGIF" data-animal="cow">cow</button>
+				<button class="showGIF" data-animal="cat">cat</button>
+				<button class="showGIF" data-animal="dog">dog</button>
+				<button class="showGIF" data-animal="lion">lion</button>
+				<button class="showGIF" data-animal="whale">whale</button>
+				<button class="showGIF" data-animal="shark">shark</button>
+				<button class="showGIF" data-animal="toucan">tucan</button>
+				<button class="showGIF" data-animal="weasel">weasel</button>
+				<button class="showGIF" data-animal="skunk">skunk</button>
 			</section>
 
 		</div>
@@ -47,6 +47,7 @@
 
 	<footer>Copyright © 2017 <a class="footer" href="https://github.com/carlosfgutier" target="_blank">Carlosfgutier</footer>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
