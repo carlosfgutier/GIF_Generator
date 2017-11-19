@@ -1,10 +1,9 @@
 body {background-color: #E3CE0B;
 	overflow-x: hidden;
-
 }
 
 .container {width: 100%;
-
+	margin: 0 50px;
 }
 
 /*Top Bar*/
@@ -20,13 +19,12 @@ body {background-color: #E3CE0B;
 }
 
 #description {font-size: 15px;
-
 }
 
 
 #appInfo {display: inline-block;
 	float: left;
-	margin-right: 30px;
+	margin-right: 50px;
 }
 
 #searchSection {display: inline-block;
@@ -45,7 +43,7 @@ body {background-color: #E3CE0B;
 }
 
 #buttonDisplay {display: inline-block;
-
+	max-width: 1000px;
 }
 
 h2 {font-family: 'Roboto Condensed', sans-serif;
@@ -53,11 +51,9 @@ h2 {font-family: 'Roboto Condensed', sans-serif;
 }
 
 p {font-family: 'Roboto Condensed', sans-serif;
-
 }
 
-button {
-
+button {margin: 5px 5px;
 }
 
 /*GIF section*/
@@ -65,7 +61,7 @@ button {
 	background-color: #E3CE0B;
 }
 
-.GIF {display: inline-block;
+.GIFsection {display: inline-block;
 	margin: 10px 20px;
 	border-color: #75532D;
 	border-style: solid;
